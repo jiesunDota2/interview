@@ -44,7 +44,8 @@ client端会对某个znode建立一个watcher事件，当该znode发生变化时
 1. 缓存
 2. 共享Session
 3. 消息队列系统
-4. 分布式锁
+4. 分布式锁 （读写锁 https://segmentfault.com/a/1190000016900930）
+
 
 ### 单线程的Redis为什么快
 
